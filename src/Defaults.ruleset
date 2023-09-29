@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Defaults" Description="Empty RuleSet that shows all default severities" ToolsVersion="17.0">
+  <Rules AnalyzerId="SonarAnalyzer.CSharp" RuleNamespace="SonarAnalyzer.CSharp">
+    <Rule Id="S109" Action="Error" />
+  </Rules>
+</RuleSet>

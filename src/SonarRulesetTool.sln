@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SonarRulesetTool", "SonarRulesetTool.csproj", "{2E9A1998-D9DF-4424-B1F4-0ED250F6AEE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E9A1998-D9DF-4424-B1F4-0ED250F6AEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E9A1998-D9DF-4424-B1F4-0ED250F6AEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E9A1998-D9DF-4424-B1F4-0ED250F6AEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E9A1998-D9DF-4424-B1F4-0ED250F6AEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16060453-5314-439C-A451-00C61A2F9823}
+	EndGlobalSection
+EndGlobal

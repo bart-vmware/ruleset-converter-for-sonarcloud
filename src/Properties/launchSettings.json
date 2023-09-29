@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SonarCloudQualityProfileXmlGenerator": {
+      "commandName": "Project",
+      "commandLineArgs": "convert --verbose --profileName \"Steeltoe codebase\" C:\\Source\\Repos\\Steeltoe\\Steeltoe.Release.ruleset \"C:\\Users\\kbart\\OneDrive - VMware, Inc\\VMwareCorp\\Downloads\\CopyOfSonarWay.xml\""
+    }
+  }
+}
