@@ -2,7 +2,8 @@
   "profiles": {
     "SonarCloudQualityProfileXmlGenerator": {
       "commandName": "Project",
-      "commandLineArgs": "convert --verbose --profileName \"Steeltoe codebase\" C:\\Source\\Repos\\Steeltoe\\Steeltoe.Release.ruleset \"C:\\Users\\kbart\\OneDrive - VMware, Inc\\VMwareCorp\\Downloads\\CopyOfSonarWay.xml\""
+      //"commandLineArgs": "convert --verbose --profileName \"Steeltoe codebase\" C:\\Source\\Repos\\Steeltoe\\Steeltoe.Release.ruleset \"C:\\Users\\kbart\\OneDrive - VMware, Inc\\VMwareCorp\\Downloads\\CopyOfSonarWay.xml\""
+      //"commandLineArgs": "normalize \"C:\\Users\\kbart\\OneDrive - VMware, Inc\\VMwareCorp\\Downloads\\CopyOfSonarWay.xml\" --outputFile \"C:\\Users\\kbart\\OneDrive - VMware, Inc\\VMwareCorp\\Downloads\\CopyOfSonarWay-normalized.xml\""
     }
   }
 }
