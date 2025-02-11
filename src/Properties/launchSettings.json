@@ -2,7 +2,7 @@
   "profiles": {
     "SonarCloudQualityProfileXmlGenerator": {
       "commandName": "Project",
-      //"commandLineArgs": "convert --verbose --profileName \"Steeltoe codebase\" C:\\Source\\Repos\\Steeltoe\\Steeltoe.Release.ruleset \"C:\\Temp\\CopyOfSonarWay.xml\""
+      //"commandLineArgs": "convert --verbose --profileName \"Steeltoe way\" C:\\Source\\Repos\\Steeltoe\\Steeltoe.Release.ruleset \"C:\\Temp\\CopyOfSonarWay.xml\""
       //"commandLineArgs": "normalize \"C:\\Temp\\CopyOfSonarWay.xml\" --outputFile \"C:\\Temp\\CopyOfSonarWay-normalized.xml\""
     }
   }
