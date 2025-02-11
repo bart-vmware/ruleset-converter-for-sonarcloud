@@ -7,7 +7,7 @@ At the same time, we don't want to disable rules that exist solely in SonarCloud
 
 ## Use case: Refresh SonarCloud profile from local RuleSet file
 
-The steps below describe how to download the default profile from SonarCloud and generate an updated XML file that you can upload. The generated file contains the rules that only exist in SonarCloud, combines with the local rule severities.
+The steps below describe how to download the default profile from SonarCloud and generate an updated XML file that you can upload. The generated file contains the rules that only exist in SonarCloud, combined with the local rule severities.
 
 1. To start, export the 'current' built-in profile from SonarCloud. Because you can't directly export "Sonar way", create a temporary copy.
 1. Download the copied profile to disk (organization > Quality Profiles > CopyOfSonarWay > Back Up) and delete the online profile.

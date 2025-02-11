@@ -31,7 +31,7 @@ internal static class SonarRuleSetAccessor
             }
         }
 
-        if (!sonarRulesById.Any())
+        if (sonarRulesById.Count == 0)
         {
             Console.WriteLine($"WARNING: No Sonar rules found in '{sourcePath}'.");
         }
@@ -41,7 +41,7 @@ internal static class SonarRuleSetAccessor
 
     private static IEnumerable<XElement> GetRuleElements(XDocument document)
     {
-        IEnumerable<XElement> rulesElements = document.Element(RuleSetElementName)?.Elements() ?? Array.Empty<XElement>();
+        IEnumerable<XElement> rulesElements = document.Element(RuleSetElementName)?.Elements() ?? [];
         return rulesElements.Where(rulesElement => rulesElement.Attributes().Any(IsSonarRuleSet)).SelectMany(rulesElement => rulesElement.Elements());
     }
 

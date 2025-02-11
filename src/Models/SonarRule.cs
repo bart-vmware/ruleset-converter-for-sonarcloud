@@ -1,22 +1,15 @@
 namespace SonarRulesetTool.Models;
 
-internal sealed class SonarRule : IEquatable<SonarRule>
+internal sealed class SonarRule(string id, RuleSeverity severity, string repositoryKey) : IEquatable<SonarRule>
 {
     /// <summary>
     /// The "repositoryKey" value used in SonarCloud XML files.
     /// </summary>
     public const string SonarAnalyzerRepositoryKey = "csharpsquid";
 
-    public string RepositoryKey { get; }
-    public string Id { get; }
-    public RuleSeverity Severity { get; }
-
-    public SonarRule(string id, RuleSeverity severity, string repositoryKey)
-    {
-        Id = id;
-        Severity = severity;
-        RepositoryKey = repositoryKey;
-    }
+    public string RepositoryKey { get; } = repositoryKey;
+    public string Id { get; } = id;
+    public RuleSeverity Severity { get; } = severity;
 
     public override string ToString()
     {

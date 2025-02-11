@@ -75,7 +75,7 @@ internal static class SonarAnalyzerAccessor
             }
         }
 
-        if (!sonarRulesById.Any())
+        if (sonarRulesById.Count == 0)
         {
             Console.WriteLine($"WARNING: No Sonar rules found in '{SonarAssembly.Location}'.");
         }
