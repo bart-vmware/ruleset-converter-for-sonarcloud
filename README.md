@@ -3,6 +3,8 @@
 The primary goal of this tool is to refresh the Quality Profile in SonarCloud, based on the .ruleset file that runs during local solution build.
 At the same time, we don't want to disable rules that exist solely in SonarCloud, so these get merged back in.
 
+[![Build](https://github.com/bart-vmware/ruleset-converter-for-sonarcloud/actions/workflows/build.yml/badge.svg)](https://github.com/bart-vmware/ruleset-converter-for-sonarcloud/actions/workflows/build.yml)
+
 # How to use
 
 ## Use case: Refresh SonarCloud profile from local RuleSet file
