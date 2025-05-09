@@ -1,7 +1,7 @@
 using System.Reflection;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.Diagnostics;
-using SonarAnalyzer.Rules.CSharp;
+using SonarAnalyzer.CSharp.Rules;
 using SonarRulesetTool.Models;
 
 namespace SonarRulesetTool.Accessors;
