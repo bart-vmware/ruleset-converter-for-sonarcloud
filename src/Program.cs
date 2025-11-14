@@ -3,8 +3,9 @@ using SonarRulesetTool.Commands;
 
 var rootCommand = new RootCommand("Support tool for SonarAnalyzer and SonarCloud")
 {
-    ConvertCommand.Register(),
-    NormalizeCommand.Register()
+    ConvertCommand.Create(),
+    NormalizeCommand.Create()
 };
 
-return await rootCommand.InvokeAsync(args);
+ParseResult parseResult = rootCommand.Parse(args);
+return await parseResult.InvokeAsync().ConfigureAwait(false);
