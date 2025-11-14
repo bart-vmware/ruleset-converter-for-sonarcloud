@@ -11,7 +11,7 @@ internal static class CommandArgumentParser
 
         if (!fileInfo.Exists)
         {
-            result.ErrorMessage = $"File '{fileName}' does not exist.";
+            result.AddError($"File '{fileName}' does not exist.");
         }
 
         return fileInfo;
